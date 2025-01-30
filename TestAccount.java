@@ -6,8 +6,8 @@ public class TestAccount {
         Account acc2 = new Account("2", "Account Number 2", 8000);
 
         // Display balance of both accounts
-        System.out.println("Balance of Account 1: " + acc1.getBalance());
-        System.out.println("Balance of Account 2: " + acc2.getBalance());
+        System.out.println("The Balance of Account 1 is : " + acc1.getBalance());
+        System.out.println("The Balance of Account 2 is : " + acc2.getBalance());
 
         // Transfer $1000 from account 1 to account 2
         acc1.transferTo(acc2, 1000);
